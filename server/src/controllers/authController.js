@@ -17,7 +17,13 @@ export const register = asyncHandler(async (req, res) => {
   await user.setPassword(password);
   await user.save();
   const token = generateToken(user._id);
-  res.cookie('token', token, { httpOnly: true, sameSite: 'lax', secure: process.env.NODE_ENV === 'production' });
+  res.cookie('token', token, {
+  httpOnly: true,
+  secure: true,
+  sameSite: 'none',
+  path: '/',
+  maxAge: 7 * 24 * 60 * 60 * 1000,
+});
   res.status(201).json({
     message: 'User registered',
     user: { id: user._id, name: user.name, email: user.email, role: user.role },
@@ -38,7 +44,13 @@ export const login = asyncHandler(async (req, res) => {
     return res.status(401).json({ error: 'Invalid credentials' });
   }
   const token = generateToken(user._id);
-  res.cookie('token', token, { httpOnly: true, sameSite: 'lax', secure: process.env.NODE_ENV === 'production' });
+  res.cookie('token', token, {
+  httpOnly: true,
+  secure: true,
+  sameSite: 'none',
+  path: '/',
+  maxAge: 7 * 24 * 60 * 60 * 1000,
+});
   res.json({ message: 'Logged in', user: { id: user._id, name: user.name, email: user.email, role: user.role } });
 });
 

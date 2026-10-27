@@ -1,0 +1,33 @@
+{
+  "name": "opsboard-client",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.306.0",
+    "postcss": "^8.4.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.0",
+    "react-router-dom": "^6.14.2",
+    "recharts": "^2.6.2",
+    "tailwindcss": "^3.3.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0",
+    "vitest": "^0.34.5"
+  }
+}

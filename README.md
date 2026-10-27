@@ -20,6 +20,22 @@ OpsBoard is a full-stack MERN application designed to manage operational inciden
 - **Database Integration:** MongoDB with Mongoose.
 - **Deployment:** Frontend deployed on Vercel and backend on Render.
 
+
+## 📸 Screenshots
+
+### Admin Panel
+![OpsBoard Admin](./screenshots/admin.png)
+
+### Dashboard
+![OpsBoard Dashboard](./screenshots/dashboard.png)
+
+### Incident Management
+![OpsBoard Incident Management](./screenshots/incident.png)
+
+### Login Page
+![OpsBoard Login](./screenshots/login.png)
+
+
 ## 🛠️ Tech Stack
 
 **Frontend**

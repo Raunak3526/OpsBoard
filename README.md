@@ -24,16 +24,16 @@ OpsBoard is a full-stack MERN application designed to manage operational inciden
 ## 📸 Screenshots
 
 ### Admin Panel
-![OpsBoard Admin](./screenshots/admin.png)
+![OpsBoard Admin](./Screenshots/admin.png)
 
 ### Dashboard
-![OpsBoard Dashboard](./screenshots/dashboard.png)
+![OpsBoard Dashboard](./Screenshots/dashboard.png)
 
 ### Incident Management
-![OpsBoard Incident Management](./screenshots/incident.png)
+![OpsBoard Incident Management](./Screenshots/incident.png)
 
 ### Login Page
-![OpsBoard Login](./screenshots/login.png)
+![OpsBoard Login](./Screenshots/login.png)
 
 
 ## 🛠️ Tech Stack
